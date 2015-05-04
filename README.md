@@ -53,6 +53,7 @@ This will be a static template that will display the Twilio phone number and ins
 ![img-home-route](http://cl.ly/image/1U0F212q153w/Screen%20Shot%202014-10-13%20at%209.51.12%20AM.png)
 
 Let's have the `otherwise` catch-all point to this route as well.
+// DONE
 
 ####`/support`
 This will be the route that will show all numbers and their conversations. When you're finished, it should look something like this:
