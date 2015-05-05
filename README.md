@@ -71,11 +71,14 @@ ng-repeat="(key, val) in object"
 ```
 
 This will help you retrieve the phone number.
+// DONE
 
 ##Step 4: Add "reply" ability
 Now we'll make it so that messages sent from our dashboard will be saved in Firebase and sent to the user.
 
 Let's start by creating an API endpoint in our server.js:
+
+// RESUME HERE
 
 ####`POST /support/messages/`
 Using the twilio-node API, make it so that any POST sent to the above endpoint with will send a text to the originating number. You should probably pass the "to" number in the POST JSON data.

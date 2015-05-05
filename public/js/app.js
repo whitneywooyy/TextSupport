@@ -1,5 +1,9 @@
 var app = angular.module('textSupportApp', ['firebase', 'ngRoute']);
 
+app.constant('fb', {
+	url: "https://twilio-thing.firebaseio.com/"
+})	// End app.constant
+
 app.config(function($routeProvider){
 	$routeProvider
 	.when('/', {

@@ -1,0 +1,10 @@
+<div>
+	<h1>TextSupport</h1>
+	<h2>Tickets</h2>
+	<div ng-repeat="(key, value) in texts">{{key}}
+		<div ng-repeat="message in value"> {{message.body}} - {{message.date_sent}}
+		</div>
+	<!-- {{textsDataDetails.body}} -->
+	</div>
+<!-- 	<p ng-repeat="(k, v) in texts.key">{{k}}</p>
+ --></div>
